@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Default Page Title</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+</head>
+
+<body>
+<div class="container">
+    <div class="table-wrapper">
+        <div class="table-title">
+            <div class="form-group row">
+               <label class="col-sm-8 col-form-label"><h1>Тестовое задание </h1></label>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-5 col-form-label"><h2>Фильтр по типу пользователя:</h2></label>
+                <div class="col-sm-3">
+                    <select class="form-control" name="filter-type-row">
+                        <option value = "-1">Не указан</option>
+                        <option value="0">Физическое лицо</option>
+                        <option value="1">Юридическое лицо</option>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i>Добавить</button>
+                </div>
+            </div>
+
+        </div>
+            <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>ИД</th>
+                <th>Имя</th>
+                <th>Тип</th>
+                <th>Номер потребителя</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="js/index.js"></script>
+<script src="js/render.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/event.js"></script>
+</html>
